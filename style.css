@@ -1,3 +1,4 @@
+
 h1 {
     color: gray;
   }
@@ -8,13 +9,19 @@ h2 {
 p {
     color: gray;
     font-size: 40px;
-
 }
 body {
     background-color: #5c5c8a;
    }
+
+/* Bootstrap Class Altering Styles */
 .container {
     margin: 0;
+}
+.btn{
+    background-color: #5c5c8a;
+    margin: 20px;
+
 }
 .navbar {
 }

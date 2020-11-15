@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
   <head>
-    <title>Bootstrap Homework</title>
+    <title>Contact Zack Larsen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </meta>
     <!-- Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--- Link to Style Sheet-->
     <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
 
+  </head>
+<!-- Navbar, Altered to have buttons with right alignment. Seems to have damaged its ability to be responsive-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <h1>Zack Larsen</h1>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -24,12 +28,23 @@
       </ul>
     </div>
   </nav>
-  
 
+
+<!--- Jumbotron with input sections for e-mail and name. I'm not sure how this button is supposed to work.-->
 <section>
 <div class="jumbotron">
       <h1>Contact</h1>
-      <p>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="E-Mail Adress">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
     </div>
   </div>
 </section>
