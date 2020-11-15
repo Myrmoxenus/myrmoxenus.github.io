@@ -13,11 +13,14 @@ p {
 body {
     background-color: #5c5c8a;
    }
+.container {
+    margin: 0;
+}
 .navbar {
 }
 
 .jumbotron {
-    margin: 1in;
+    margin: 50px;
 }
 
 .portrait {
